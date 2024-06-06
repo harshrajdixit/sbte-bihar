@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="nav" id="left">
+
+            <img src="img\newlogo.png" alt="logo" id="logo">
+
+        </div>
+        <div class="nav lap" id="right">
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav_btn">Home</a></li>
+                <li><a href="notes.html" class="nav_btn">For Study <i
+                            class="fa-solid fa-caret-down droparrow"></i></i></a>
+                    <div id="dropdown">
+                        <ul>
+                            <li><a href="notes.html" class="drop_btn">Notes</a></li>
+                            <li><a href="lab.html" class="drop_btn">Lab</a></li>
+                            <li><a href="blog.html" class="drop_btn">Blog</a></li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="job.html" class="nav_btn">Latest <i class="fa-solid fa-caret-down droparrow"></i></a>
+                    <div id="dropdown">
+                        <ul>
+                            <li><a href="job.html" class="drop_btn">Jobs</a></li>
+                            <li><a href="news.html" class="drop_btn">News</a></li>
+                            <li><a href="quiz.html" class="drop_btn">Quiz</a></li>
+                            <li><a href="test.html" class="drop_btn">Test</a></li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="about.html" class="nav_btn">About</a></li>
+            </ul>
+
+            <a href="login.html" class="login_btn">Login <i class="fa-solid fa-right-to-bracket"></i> </a>
+
+
+        </div>
+        <!-- -----------------------------------------------mobile nav bar----------------------------------- -->
+        <div class="nav mob" id="right">
+            <input type="checkbox" id="check">
+            <div class="btn1">
+                <label for="check">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+            </div>
+
+            <div class="sidebarmenu">
+                <div class="logo">
+                    <a href="http://">SBTE bihar</a>
+                </div>
+
+                <div class="btn2">
+                    <label for="check">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+                </div>
+
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <a href="index.html" class="links">Home</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-address-card"></i>
+                            <a href="about.html" class="links">About</a>
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="http://" class="links">Contact</a>
+                        </li>
+
+                    </ul>
+                    <div class="last_container">
+                        <div class="study">
+                            <h1 class="heading_mob_nav">For study</h1>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-book"></i>
+                                    <a href="notes.html" class="links">Notes</a>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-flask"></i>
+                                    <a href="lab.html" class="links">Lab</a>
+                                </li>
+
+                                <li>
+                                    <i class="fa-solid fa-pen-nib"></i>
+                                    <a href="blog.html" class="links">Blog</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="latest">
+                            <h1 class="heading_mob_nav">Latest</h1>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-lightbulb"></i>
+                                    <a href="job.html" class="links">Job</a>
+                                </li>
+                                <li>
+                                    <i class="fa-regular fa-newspaper"></i>
+                                    <a href="news.html" class="links">News</a>
+                                </li>
+
+                                <li>
+                                    <i class="fa-solid fa-trophy"></i>
+                                    <a href="quiz.html" class="links">Quiz</a>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-chalkboard-user"></i>
+                                    <a href="test" class="links">test</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="socialmedia">
+                    <ul>
+                        <a href="http://"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="http://"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="http://"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="http://"><i class="fa-brands fa-youtube"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- ---------------------------------------------------------------------------------navbar ends here -->
+    <div class="home_body">
+
+        <div class="about">
+            <center>
+                <h2 class="content_heading heading1">Welcome to <span>SBTE</span> - Where Learning Meets Innovation
+                </h2>
+                <p class="content_para">
+                    At SBTE, we believe that education is the cornerstone of personal and societal growth.
+                    Founded
+                    in
+                    2023 by a passionate team of educators, technologists, and lifelong learners, SBTE has
+                    evolved
+                    into a premier online educational platform that provides comprehensive, accessible, and high-quality
+                    study
+                    materials for students across all academic levels.
+                </p>
+
+                <h2 class="content_heading heading2">Our Mission</h2>
+                <p class="content_para">To democratize education by providing every student, regardless of geographical
+                    location
+                    or economic status, access to top-tier educational resources and state-of-the-art learning tools. We
+                    strive
+                    to empower students to achieve academic excellence, foster a love for lifelong learning, and prepare
+                    for
+                    future challenges in an ever-changing world
+                </p>
+
+
+
+
+                <h2 class="content_heading heading3"> Our Vision</h2>
+
+            </center>
+        </div>
+        <div class="moto_container">
+            <div class="contents">
+                <div class="cont1">S</div>
+                <div class="cont2">Shaping</div>
+            </div>
+            <div class="contents">
+                <div class="cont1">B</div>
+                <div class="cont2">Briliant</div>
+            </div>
+            <div class="contents">
+                <div class="cont1">T</div>
+                <div class="cont2">technical</div>
+            </div>
+            <div class="contents">
+                <div class="cont1">E</div>
+                <div class="cont2">Experts</div>
+            </div>
+        </div>
+
+
+        <div class="team">
+            <h2 class="content_heading heading4"> Team SBTE</h2>
+
+            <div class="team_container">
+                <div class="team_contents prashant">
+                    <div class="team_photo"><img src="img\prashantsir.jpg" class="team_img" alt=""></div>
+                    <p class="team_discription">Prashant Mishra</p>
+                    <p class="team_about">Founder & Owner</p>
+                    <p class="team_btn"> <a
+                            href="https://www.linkedin.com/in/prashant006?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BbaGWWV2aSR2eACPLY6obJQ%3D%3D"
+                            class="team_btn_anchor">Linkedin</a></p>
+                </div>
+                <div class="team_contents harsh">
+                    <div class="team_photo"><img src="img\harsh.jpg" class="team_img" alt=""></div>
+                    <p class="team_discription">Harsh Raj Dixit</p>
+                    <p class="team_about">Web Developer</p>
+                    <p class="team_btn"> <a
+                            href="https://www.linkedin.com/in/%F0%9D%90%87%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%AC%F0%9D%90%A1-%F0%9D%90%91%F0%9D%90%9A%F0%9D%90%A3-%F0%9D%90%83%F0%9D%90%A2%F0%9D%90%B1%F0%9D%90%A2%F0%9D%90%AD-80a95b2b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            class="team_btn_anchor">Linkedin</a></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------------------------------------------------------------------footer stars here -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="#study-guides">Study Guides</a></li>
+                        <li><a href="#faqs">FAQs</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><a href="mailto:info@studymaterial.com">info@studymaterial.com</a></li>
+                        <li><a href="tel:+1-555-555-5555">+1-555-555-5555</a></li>
+                        <li>123 Main St, Anytown USA</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 socialicons">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="#facebook"><i class=' bx bxl-facebook '></i></a></li>
+                        <li><a href="#twitter"><i class=' bx bxl-twitter '></i></a></li>
+                        <li><a href="#instagram"><i class=' bx bxl-instagram '></i></a></li>
+                        <li><a href="#instagram"><i class=' bx bxl-linkedin '></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <h3>Newsletter</h3>
+                    <p>Sign up for our newsletter to receive updates on new study materials and promotions.</p>
+                    <form>
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="copyright">Copyright © 2023 Study Material. All rights reserved.</p>
+                    <p class="terms-of-service"><a href="#terms-of-service">Terms of Service</a> | <a
+                            href="#privacy-policy">Privacy Policy</a></p>
+                    <p class="copyright"> Designed & Created by </p>
+                    <br>
+                    <span id="name"><a
+                            href="https://www.linkedin.com/in/%F0%9D%90%87%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%AC%F0%9D%90%A1-%F0%9D%90%91%F0%9D%90%9A%F0%9D%90%A3-%F0%9D%90%83%F0%9D%90%A2%F0%9D%90%B1%F0%9D%90%A2%F0%9D%90%AD-80a95b2b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            class="harsh_btn"><button class="btn-hover color-9">Harsh Raj Dixit</button></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ------------------------------------------------------------------------------------footer ends here -->
+
+</body>
+
+</html>
